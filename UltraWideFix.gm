@@ -1,0 +1,10 @@
+// ==UserScript==
+// @name        UltraWideFix
+// @namespace   uwf
+// @description Fix aspect ratio for youtube.
+// @include     https://www.youtube.com/watch?*
+// @version     1
+// @grant       none
+// ==/UserScript==
+var a=document.createElement('script');
+document.body.appendChild((a.setAttribute('src','https://raw.githubusercontent.com/alastorid/GreasyMonkeyScripts/master/UltraWideFix.js'),a));
