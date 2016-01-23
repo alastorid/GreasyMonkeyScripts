@@ -6,9 +6,12 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
-document.addEventListener("keydown", OnKeyDownHandler, false);
-//
-function OnKeyDownHandler(e) {
-  var keyCode = e.keyCode;
-  alert("keyCode=" + keyCode);
+document.addEventListener("onKeyPress", onKeyPressHandler, false);
+
+function onKeyPressHandler(e) {
+    var kw = e.which;
+    //99 in firefox is lctrl+lalt+c
+    //do something
+
+
 }
